@@ -1,0 +1,86 @@
+* {
+   
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(148, 38%, 91%);
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+form {
+    width: 600px;
+    height: auto;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+
+h1 {
+    font-family: 'Karla', sans-serif;
+    color: hsl(186, 44%, 13%);
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+p, label {
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+    color: hsl(187, 24%, 22%);
+    font-size: 16px;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+    margin: 0 auto 25px auto;
+}
+
+.query-row {
+    flex-grow: 1;
+    padding: 10px 15px;
+    border: 1px solid hsl(186, 15%, 59%);
+    border-radius: 5px;
+
+}
+
+.column {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 0 5px;
+
+}
+
+.column label {
+    margin-bottom: 5px;
+}
+
+input[type=text] {
+    outline: none; 
+    border: 1px solid hsl(186, 15%, 59%);
+    border-radius: 5px; 
+    height: 40px;
+    width: 100%;
+}
+
+
+
